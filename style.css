@@ -5,3 +5,39 @@
 .main-section {
   
 }
+
+nav {
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  overflow: auto;
+}
+
+ul a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  border:  1px solid #555;
+  
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+ul a:hover {
+  background-color: #555;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+/* fix that media query*/
